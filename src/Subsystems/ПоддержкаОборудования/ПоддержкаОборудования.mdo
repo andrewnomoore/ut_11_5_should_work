@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7e08cdf-ff48-4587-81e5-38991973c58b">
+  <name>ПоддержкаОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поддержка оборудования</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <explanation>
+    <key>ru</key>
+    <value>Подсистема поддержки оборудования</value>
+  </explanation>
+  <picture xsi:type="core:PictureRef">
+    <picture>0</picture>
+  </picture>
+  <content>Catalog.РабочиеМеста</content>
+  <content>DefinedType.ТорговыйОбъектБПО</content>
+  <content>DefinedType.ПользовательБПО</content>
+  <content>DefinedType.ОрганизацияБПО</content>
+  <content>CommonModule.ОбновлениеИнформационнойБазыБПО</content>
+  <content>SessionParameter.РабочееМестоКлиента</content>
+  <content>Role.СохранениеДанныхПользователя</content>
+  <content>Role.АдминистраторСистемы</content>
+  <content>Role.ВыполнениеСинхронизацииДанных</content>
+  <content>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</content>
+  <content>InformationRegister.ЗначенияЕМРЦ</content>
+  <content>DefinedType.ДенежнаяСуммаНеотрицательная</content>
+  <content>DefinedType.ДенежнаяСуммаЛюбогоЗнака</content>
+  <content>InformationRegister.ПлатежныеОперации</content>
+  <content>Enum.ТипыПлатежныхОпераций</content>
+  <content>Enum.ПериодХраненияИсторииПлатежныхОпераций</content>
+  <content>Role.ПолныеПрава</content>
+  <content>CommonModule.ГенерацияШтрихкода</content>
+  <content>CommonModule.ГенерацияШтрихкодаСерверПовтИсп</content>
+  <content>CommonTemplate.КомпонентаПечатиШтрихкодов</content>
+  <content>CommonModule.ВнешниеКомпонентыБПО</content>
+  <content>CommonModule.ВнешниеКомпонентыБПОКлиент</content>
+  <content>CommonModule.ВнешниеКомпонентыБПОПереопределяемый</content>
+  <content>CommonModule.ИнтеграцияПодсистемБПОКлиент</content>
+  <content>CommonModule.ИнтеграцияПодсистемБПОКлиентПовтИсп</content>
+  <content>CommonModule.ИнтеграцияПодсистемБПОСлужебныйВызовСервера</content>
+  <content>CommonModule.ЛогированиеОперацийБПО</content>
+  <content>CommonModule.ЛогированиеОперацийБПОПереопределяемый</content>
+  <content>CommonModule.ЛогированиеОперацийБПОСлужебныйВызовСервера</content>
+  <content>CommonModule.ОбщегоНазначенияБПО</content>
+  <content>CommonModule.ОбщегоНазначенияБПОКлиент</content>
+  <content>CommonModule.ОбщегоНазначенияБПОКлиентСервер</content>
+  <content>CommonModule.ОбщегоНазначенияБПОПереопределяемый</content>
+  <content>CommonModule.ОбщегоНазначенияБПОПовтИсп</content>
+  <content>CommonModule.ОбщегоНазначенияБПОСлужебныйВызовСервера</content>
+  <content>Role.БазовыеПраваБПО</content>
+  <content>Enum.ВидыМаркированнойПродукцииБПО</content>
+  <content>CommonModule.МенеджерОборудования</content>
+  <content>CommonModule.МенеджерОборудованияВызовСервера</content>
+  <content>CommonModule.МенеджерОборудованияВызовСервераПереопределяемый</content>
+  <content>CommonModule.МенеджерОборудованияКлиент</content>
+  <content>CommonModule.МенеджерОборудованияКлиентПереопределяемый</content>
+  <content>CommonModule.МенеджерОборудованияКлиентПовтИсп</content>
+  <content>CommonModule.МенеджерОборудованияКлиентСервер</content>
+  <content>CommonModule.МенеджерОборудованияКлиентСерверПереопределяемый</content>
+  <content>CommonModule.МенеджерОборудованияПовтИсп</content>
+  <content>CommonModule.ПодключаемоеОборудованиеДрайверКлиент</content>
+  <content>CommonModule.ИнтеграцияПодсистемБПО</content>
+  <content>CommonCommand.ВыбратьРМТекущегоСеанса</content>
+  <content>1bf4db72-5bbb-4bb7-93f7-435f432ce476</content>
+  <subsystems>НастройкиПрограммы</subsystems>
+  <subsystems>ОфлайнОборудование</subsystems>
+  <subsystems>ПечатьЭтикетокИЦенников</subsystems>
+  <subsystems>ПодключаемоеОборудование</subsystems>
+  <subsystems>СообщенияВСлужбуТехническойПоддержки</subsystems>
+  <subsystems>ЭлектронныеСертификаты</subsystems>
+</mdclass:Subsystem>
