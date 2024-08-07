@@ -3771,6 +3771,7 @@
   <commonModules>CommonModule.ЖурналРегистрации</commonModules>
   <commonModules>CommonModule.ЖурналРегистрацииВызовСервера</commonModules>
   <commonModules>CommonModule.ЖурналРегистрацииКлиент</commonModules>
+  <commonModules>CommonModule.з_ОбщийМодуль</commonModules>
   <commonModules>CommonModule.ЗагрузкаДанныхИзФайла</commonModules>
   <commonModules>CommonModule.ЗагрузкаДанныхИзФайлаКлиент</commonModules>
   <commonModules>CommonModule.ЗагрузкаДанныхИзФайлаКлиентСервер</commonModules>
